@@ -60,7 +60,7 @@ pip install unittest
   
   
 #### Update Connection String to MongoDB
->Open app/data/conn.py. Update *<username>* and *<password>*
+>Open app/data/conn.py. Update username and password
 ```
 CONNECTION_STRING = "mongodb+srv://<username>:<password>@cluster0.vxluc.mongodb.net/core?retryWrites=true&w=majority"
 ```
