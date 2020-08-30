@@ -64,8 +64,9 @@ pip install unittest
 ```
 CONNECTION_STRING = "mongodb+srv://<username>:<password>@cluster0.vxluc.mongodb.net/core?retryWrites=true&w=majority"
 ```
+<br/>
 
-### Launch the application
+## Launching the application
 ```
 $ python app/main.py
 ```
@@ -82,7 +83,7 @@ You should see something like this in your console:
 ```
 
 
-### Running the Unit test from command link
+## Running the Unit test from command link
 ```
 $python -m unittest tests/test_order.py
 ```
