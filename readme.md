@@ -5,6 +5,7 @@ This simple web application is part of a Food Ordering System that aim at allowi
 This is the backend service to provide a RESTFul API to handle the life cycle of the orders.
 
 The application is built using Python [Flask](https://palletsprojects.com/p/flask/) and web application, and use the [MongoDB Atlas](https://palletsprojects.com/p/flask/) cloud service (Free tier) as the database.
+<br/>
 
 ## Technology
 - Python (3.x)
@@ -16,7 +17,7 @@ The application is built using Python [Flask](https://palletsprojects.com/p/flas
 ## Setup
 
 ### Prerequisite
-[Python](https://www.python.org/) (3.x), pip and virtualenv is installed in your local machine
+[Python](https://www.python.org/) (3.x), pip and virtualenv is installed in your local machine  
  
 #### Install From requirements.txt
 >To install all the python dependencies, run:
@@ -55,7 +56,9 @@ Detail could be find [here](https://stackoverflow.com/questions/11416024/error-i
 #### Install unittest
 ```
 pip install unittest
-```
+```  
+  
+  
 #### Update Connection String to MongoDB
 >Open app/data/conn.py. Update *<username>* and *<password>*
 ```
