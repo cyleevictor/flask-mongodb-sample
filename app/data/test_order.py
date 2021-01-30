@@ -1,7 +1,7 @@
 import json
 
 
-class TestOrder():
+class TestOrder:
     name = "hello"
     description = "something to note"
 

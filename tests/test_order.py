@@ -31,13 +31,16 @@ class OrderTest(unittest.TestCase):
     def test_add_order(self):
         tester = app.test_client(self)
         content = {
-            'order_id': '006',
+            'order_id': '007',
             'table_id': 'Table9',
-            'description': 'Chocolate2'
+            'ordered_items': [{'item_id': 'item01', 'quantity': 2, 'sub_total': 10.2}, {'item_id': 'item02', 'quantity': 1, 'sub_total' : 5.0}],
+            'description': 'Lemon tea'
         }
+
         response = tester.post("/addOrders",
-                               data=content
+                               json=content
                                )
+        print(response.get_json())
         self.assertEqual(response.status_code, 200)
         print(response.data)
 
